@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-basis: 12em;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 14px 0px rgba(117, 106, 117, 1);
+}
+article img {
+    flex-basis: 100%;
+}
+
+.wide {
+    flex-grow: 3;
+}

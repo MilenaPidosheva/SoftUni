@@ -1,0 +1,89 @@
+html {
+    font-size: 12px;
+    line-height: 1.2em;
+}
+
+body {
+    padding: 3em;
+}
+
+.cleaner {
+    clear: right;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+blockquote {
+    margin-top: 0;
+    width: 50%;
+    vertical-align: top;
+}
+
+blockquote p {
+    margin-top: 0;
+}
+.page-header {
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 0.25em;
+}
+
+img {
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 0.15em solid black;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+}
+
+blockquote {
+    border-left-style: solid;
+    border-left-width: 0.20em;
+    border-left-color: gray;
+    padding-left: 1.5em;
+}
+@media (min-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1300px) {
+    html {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 1800px) {
+    html {
+        font-size: 23px;
+    }
+}
+
+.site-title {
+    font-family: Helvetica, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    padding: 30px;
+    margin: 0 auto;
+}

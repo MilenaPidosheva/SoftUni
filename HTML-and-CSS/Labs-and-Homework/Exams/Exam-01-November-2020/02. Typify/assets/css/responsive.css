@@ -1,0 +1,55 @@
+@media all and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        font-size: 10px;
+    }
+
+    section.special {
+        text-align: start;
+        font-size: 16px;
+    }
+
+    .banner h2 {
+        display: block;
+        width: auto;
+    }
+
+    .major h2 {
+        margin: 67px;
+    }
+
+    .features {
+        display: block;
+
+    }
+
+    .feature {
+        width: 600px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .grid-form {
+        display: block;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 75%;
+        text-align: center;
+    }
+
+    ul li a {
+        width: 585px;
+    }
+
+    .wrapper.style2 {
+        text-align: center;
+    }
+    .actions {
+        width: 564px;
+    }
+    
+
+}

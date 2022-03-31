@@ -1,0 +1,101 @@
+html {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    padding: 48px;
+    background-color: rgb(238, 238, 238);
+
+}
+
+.navigation {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0,0,0);
+    text-transform: uppercase;
+}
+nav ul {
+    display: flex;
+    margin: 10px;
+}
+
+nav ul li {
+    padding: 0 10px; 
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color:rgb(0, 153, 0) ;
+}
+
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page>header {
+    flex-basis: 100%;
+}
+
+.page>main {
+    flex-basis: 65%;
+}
+
+.page>aside {
+    flex-basis: 25%;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+
+
+img {
+    background-color: rgb(255, 255, 255);
+    padding: 16px;
+    margin: 16px;
+    border: 4px solid black;
+    box-shadow: 0 0 10px black;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+.page>header {
+    border-bottom: 2.4 px solid grey;
+}
+
+blockquote, h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+blockquote{
+    box-sizing: border-box;
+    border-left:2.4px solid slategray ;
+    padding: 16px;
+    float:right;
+    width: 50%;
+    font-style: italic;
+}
+blockquote cite {
+    float: right;
+}
+.site-title {
+    font-family: Helvetica, serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+

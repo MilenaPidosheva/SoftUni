@@ -1,0 +1,46 @@
+html {
+    font-size: 18px;
+    font-family: Calibri, serif;
+}
+
+body {
+    display: flex;
+    padding: 64px;
+    flex-wrap: wrap;
+    background-color: rgb(235, 235, 235);
+}
+
+
+body>* {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 16px;
+    margin: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 16px black;
+}
+
+header, footer {
+    flex-basis: 100%;
+}
+
+header {
+    padding-bottom: 80px;
+}
+
+main, aside {
+    padding-bottom: 192px;
+}
+
+main {
+    flex-basis: 57%;
+}
+
+aside {
+    flex-basis: 32%;
+}
+
+footer {
+    padding-bottom: 48px;
+}

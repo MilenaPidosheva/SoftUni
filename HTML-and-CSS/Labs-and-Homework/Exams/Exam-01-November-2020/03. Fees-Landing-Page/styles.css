@@ -1,0 +1,214 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:ital,wght@0,400;0,600;0,700;1,600&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,600;1,800&family=Raleway:ital@1&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 20px;
+    max-width: 1300;
+    margin: 0 auto;
+}
+
+.content {
+    margin-top: 10rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list-item {
+    list-style-type: none;
+}
+
+.nav-list-item a {
+    text-decoration: none;
+    color: #5E628F;
+    margin: 20px 8px;
+}
+
+.nav-logo {
+    max-width: 150px;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.program {
+    background: white;
+    border-radius: 12px;
+    width: 30%;
+    max-width: 400px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 7px -3px black;
+    /* position: relative; */
+    top: 87px;
+}
+
+.background {
+    background: #54546D;
+    height: 510px;
+}
+
+.programs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* position: relative; */
+}
+
+.programs img {
+
+    position: absolute;
+    right: 92%;
+
+}
+
+.programs-title {
+    color: white;
+    text-align: center;
+    flex-basis: 100%;
+    font-size: 25px;
+}
+
+.program-title {
+    font-size: 24px;
+    color: #5E628F;
+}
+
+.program-subtitle {
+    padding: 15px;
+}
+
+.program-cta {
+    background: #9A5DC6;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px -2px black;
+    margin: 45px auto;
+}
+
+.program-footer {
+    color: white;
+    padding: 20px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.program .design-basics .program-footer-text {
+    padding-bottom: 22px;
+}
+
+.design-basics .program-footer {
+    background: linear-gradient(90deg, rgba(13, 163, 70, 1) 0%, rgba(72, 212, 125, 1) 66%);
+}
+
+.fundamentals .program-footer {
+    background: linear-gradient(90deg, rgba(78, 111, 142, 1) 0%, rgba(96, 151, 202, 1) 73%);
+}
+
+.profesional .program-footer {
+    background: linear-gradient(90deg, rgba(80, 61, 170, 1) 0%, rgba(136, 121, 222, 1) 78%);
+}
+
+.fundamentals .program-footer,
+.profesional .program-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.program-footer-onsite {
+    border-right: 1px solid white;
+    padding: 10px;
+}
+
+.program-footer-online {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.container {
+    margin-left: 210px;
+    margin-right: 200px;
+}
+
+table {
+    width: 70%;
+    text-align: left;
+    border-spacing: 0px;
+    border-color: rgb(211, 211, 211);
+    margin: auto;
+}
+
+table tbody td {
+    padding: 5px;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #F1F1F1;
+}
+
+.table-wrapper .check {
+    color: #119D40;
+}
+.table-wrapper .times {
+    color: #FC4C50;
+}
+
+
+/* finansed */
+
+.finansed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.finansec__info {
+    margin: 50px 0 0 120px;
+}
+
+.finansed img {
+    margin-right: 120px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #54546D;
+    color: #908FAB;
+    padding: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}

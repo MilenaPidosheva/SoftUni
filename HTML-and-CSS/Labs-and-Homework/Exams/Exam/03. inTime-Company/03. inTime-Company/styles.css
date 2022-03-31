@@ -1,0 +1,274 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url("./reset.css");
+
+:root {
+    --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --navi-height: 58px
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background-color: white;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-heading .blue {
+    color: #008CBA;
+}
+
+nav {
+    width: 35%;
+}
+
+ul {
+    justify-content: space-around;
+}
+
+.hero {
+    background-image: url("./images/slide2.jpg");
+    height: 38rem;
+    position: relative;
+}
+
+.promote {
+    background: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 25%
+}
+
+.promote h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.promote button {
+    color: #fff;
+    background: #008CBA;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 35px;
+    font-size: 14px;
+    border-radius: 40px;
+    margin-top: 15px;
+}
+
+
+.wlcome {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding: 10px 20%;
+    background: white;
+    color: #454545;
+}
+
+.wlcome h1 {
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.wlcome hr {
+    height: 3px;
+    background-color: #21a2bc;
+    border: none;
+    width: 8%;
+    margin-top: -10px;
+}
+
+.wlcome p {
+    margin: 20px;
+}
+
+.wlcome button {
+    margin: 20px;
+    border-radius: 20px;
+    background: #454545;
+    color: white;
+    padding: 5px 15px;
+}
+
+#articlesSection {
+    background-color: #eef0f1;
+    color: #454545;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+#articlesSection h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+    padding-top: 40px;
+}
+
+#articlesSection hr {
+    height: 3px;
+    background-color: #454545;
+    border: none;
+    width: 5%;
+    margin-top: -10px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.card-descr {
+    border-radius: 4px;
+    margin-left: 2.5%;
+    font-size: 16px;
+    background-color: white;
+}
+
+.card-descr img {
+    border-radius: 4px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.service-description {
+    padding: 0px 15px;
+}
+
+.card-descr button {
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: #454545;
+    padding: 8px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.newsletter {
+    background: #393f43;
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.newsletter-wrapper {
+    padding-bottom: 45px;
+}
+
+.newsletter-hr {
+    height: 3px;
+    background-color: white;
+    border: none;
+    width: 5%;
+    margin-top: -10px;
+}
+
+.newsletter-heading {
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.newsletter-info {
+    font-size: 16px;
+    margin: 20px;
+}
+
+input {
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    padding: 5px 15px 5px 15px;
+}
+
+.email {
+    background-color: #545a5e;
+    padding-left: 15px;
+    width: 30%;
+    font-style: italic;
+}
+
+.subscribe {
+    margin-bottom: 50px;
+    padding-right: 40px;
+    padding-left: 50px;
+    font-size: 18px;
+    background-color: #6bbfff;
+    color: white;
+}
+
+
+
+footer {
+    background-color: #2f3539;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+.single-footer-section ul li {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.footer-section-heading {
+    font-size: 19px;
+}
+
+.footer-manu {
+    margin-top: 20px;
+}
+
+i {
+    margin-right: 12px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #262b2f;
+    color: white;
+    padding: 6px 0px 6px 0px;
+    font-size: 16px;
+}
+
+.copyright a {
+    color: #0481aa;
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+body {
+    padding: 3em;
+    font-family: Helvetica, sans-serif;
+    background-color:rgb(238, 238, 238) ;
+}
+section {
+    width: 25em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em black;
+    overflow: hidden;
+    padding-bottom: 1em;
+    background-color: rgb(255, 255, 255);
+}
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+.card-info {
+    padding: 1em;
+}
+
+.button {
+    float: right;
+    color: white;
+    background-color: rgb(0, 153, 0);
+    border-radius: 0.2em;
+    margin-right: 1em;
+    padding: 0.5em;
+}

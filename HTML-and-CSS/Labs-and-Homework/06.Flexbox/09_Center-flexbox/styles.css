@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    padding: 15px;
+    background: rgb(255, 255, 255;
+    box-shadow: inset 2px 2px 5px 0px rgba(117, 106, 117, 1);
+    flex-basis: 25%;
+    align-self: center;
+    
+}

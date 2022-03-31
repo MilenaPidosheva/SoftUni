@@ -1,0 +1,73 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css ");
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+section {
+    position: relative;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    width: 30%;
+    margin: 50px auto;
+    background-color: #F8F8F8;
+    padding: 20px;
+    border: 1px solid rgb(223, 215, 215);
+}
+article{
+    background: #F8F8F8;
+    border: 1px solid rgb(223, 215, 215);
+    width: 30%;
+    padding: 6px 12px;
+    border-radius: 4px;
+    position: absolute;
+    top: -21px;
+    left: -1px;
+    
+
+}
+form {
+    margin-top: 15px;
+}
+
+form span {
+    font-weight: bold;
+    width: fit-content;
+   
+    
+}
+form label {
+    display: flex;
+    margin-bottom: 12px;
+    min-width: 27%;
+    align-items: center;
+    width: fit-content;
+    
+}
+input[type="text"],
+input[type="password"]{
+    border-radius: 4px;
+    border: 1px solid grey;
+    width: 100%;
+    margin-left: 10px;
+}
+
+input[type="submit"] {
+    background: #2E2E2E;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 4px 14px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+@media all and (max-width: 600px){
+   section {
+    width: 60%;
+   }
+   
+    label {
+     flex-direction: column;  
+   } 
+}
